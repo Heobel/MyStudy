@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f4f3f3;
+            font-family: 微软雅黑;
+        }
+        a{
+            text-decoration: none;
+        }
+        .navBox{
+            display: flex;
+            margin-top: 20px;
+        }
+        .loginBox{margin-left: 150px;margin-right: 200px;}
+        nav{}
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            display: inline;
+            margin-right: 30px;
+        }
+        nav ul li a{
+            padding: 5px 10px;
+            color: gray;
+        }
+        nav ul li a:hover{ 
+            padding-bottom: 6px;
+            border-bottom: 2px solid #ff4500;
+        }
+        .searchBox{
+            margin-left: 350px;margin-top: 20px;
+        }
+        .search{
+            display: flex;align-items: center;
+            width: 700px;height: 38px; 
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+        input[type=search]{
+            padding: 16px;background-color: transparent;
+            width: 636px;
+            border: none;
+            outline: none;
+        }
+        .searchBtn{
+            width: 62px;height: 36px;
+            border: none;border-radius: 0px 5px 5px 0px;
+            background-color: #ffa500;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .box{
+            padding: 18px;
+            width: 1300px;height: 540px;
+            margin-left: 40px;margin-top: 20px;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        .box-left{
+            float: left;
+            width: 300px;
+        }
+        .sortBox{
+            padding-top: 14px;
+            width: 300px;height: 400px;
+            border-radius: 5px;
+            background-color: #f3f6f8eb;
+            
+        }
+        .sortTitle{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        .couponBox{
+            margin-top: 10px;
+            width: 300px;height: 54px;
+            background-color: #f3f6f8eb;
+        }
+        .box-middle{
+            margin-left: 10px;
+            float: left;
+            width: 640px;
+        }
+        .bannerBox{
+            width: 636px;height: 542px;
+            background-color: #f3f6f8eb;
+        }
+        .box-right{
+            margin-left: 10px;
+            float: left;
+            width: 340px;
+        }
+        .subjectBox{
+            padding-top: 14px;
+            width: 340px;height: 250px;
+            border-radius: 5px;
+            background-color: #f3f6f8eb;
+        }
+        .subjectTitle{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        .brandBox{
+            margin-top: 14px;
+            padding-top: 14px;
+            width: 340px;height: 250px;
+            border-radius: 5px;
+            background-color: #f3f6f8eb;
+        }
+        .brandTitle{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="navBox">
+            <div class="loginBox">
+                <span>你好，请<a href="#">登录</a>,<a href="#">注册</a></span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                     <li>
+                        <a href="#">收藏</a>
+                    </li>
+                    <li>
+                        <a href="#">购物车</a>
+                    </li>
+                    <li>
+                        <a href="#">订单</a>
+                    </li>
+                    <li>
+                        <a href="#">足迹</a>
+                    </li>
+                    <li>
+                        <a href="#">消息</a>
+                    </li>
+                </ul>
+            </nav>   
+            
+            
+        </div>
+        <div class="searchBox">
+            <form action="search_b.php" >
+                <div class="search">
+                    <input type="search" name="q" id="search">
+                    <button class="searchBtn">搜索</button>
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <div class="box-left">
+                <aside class="sortBox">
+                    <span class="sortTitle">分类</span>
+                    <br>
+                    <img src=""><a href="#">手机</a>/<a href="#">手机</a>/<a href="#">手机</a>
+                    <img src=""><a href="#">手机</a>/<a href="#">手机</a>/<a href="#">手机</a>
+                    <img src=""><a href="#">手机</a>/<a href="#">手机</a>/<a href="#">手机</a>
+                    <img src=""><a href="#">手机</a>/<a href="#">手机</a>/<a href="#">手机</a>
+
+
+                </aside>
+                <aside class="couponBox">
+                    优惠券
+                </aside>
+                <aside class="couponBox">
+                    优惠券
+                </aside>
+            </div>
+            <div class="box-middle">
+                <section class="bannerBox">
+                    轮播图
+                </section>
+            </div>
+            <div class="box-right">
+                <div class="subjectBox">
+                    <span class="subjectTitle">专题</span>
+                </div>
+                <div class="brandBox">
+                    <span class="brandTitle">品牌</span>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+
+
+
+    </div>
+    <script></script>
+</body>
+</html>
